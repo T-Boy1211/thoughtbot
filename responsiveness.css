@@ -1,0 +1,15 @@
+/* media queries for small screen */
+@media screen and (max-width: 769px) {
+    .nav-links ul {
+        display: none;
+    }
+
+    .clickbar a {
+        display: none;
+        image-rendering: url();
+    }
+
+    .hero h1 {
+        
+    }
+}

@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: sans-serif;
+}
+
+.navbar  {
+    /* position: static; */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.nav-links {
+    /* display: flex; */
+    /* text-decoration: none; */
+    /* list-style: none; */
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    /* list-style: none; */
+    color: black;
+}
+
+/* .block {
+    display: block;
+    width: 30px;
+    border-radius: 300%;
+    margin-left: -50px;
+    margin-bottom: -16px;
+    text-align: center;
+}
+
+.clickbar button img {
+    border-radius: 100%;
+    cursor: pointer;
+} */
+
+.clickbar img {
+    width: 20px;
+    border-radius: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    /* /* background-color: blue; * */
+    color: black;
+    /* padding: 30px; */
+}
+
+.clickbar a {
+    text-decoration: none;
+    color: black;
+    background-color: brown;
+    border-radius: 7%;
+}
+
+.clickbar a :hover {
+    /* border: 2px solid red; */
+}
+
+/* .herosection {
+    display: flex;
+    justify-content: space-between;
+    align-content: center; */
+    /* border: 1px solid green; */
+}
+
+.hero {
+    /* padding: 90px; */
+    /* margin: 100px; */
+    /* border: 1px solid navy; */
+}
+
+.hero h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.hero p {
+    margin-top: 50px;
+    /* margin-left: -20px; */
+    /* font-size: 13px; */
+    font-family: sans-serif;
+}
+
+.clickbar a {
+    background-color: rgb(206, 45, 45);
+    border-radius: 110px;
+    /* margin-top: 50px; */
+    /* padding: 10px; */
+    /* width: 300px; */
+    padding: 10px 30px;
+    font-weight: 500px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.clickbar a:hover {
+    /* background-color: black; */
+    border: 2px solid rgb(143, 140, 140);
+    box-shadow:  0 0 10px rgb(206, 45, 45);
+}
+.hero {
+    text-decoration: none;
+}
+
+.hero a p {
+    background-color: red;
+    color: white;
+    border-radius: 60%;
+    text-align: center;
+    width: 100px;
+    height: 14px;
+}
+
+.hero img {
+    margin-top: -70px;
+}
+
+.service-section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid purple; */
+}
+
+.service {
+    padding: 100px;
+    /* border: 1px solid yellow; */
+}
+
+.service h3 b {
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.service p {
+    margin-top: 30px;
+    font-size: 15px;
+}
+.service ul li a {
+    /* padding: 50px; */
+    /* margin-left: 50px   ; */
+    color: black;
+}
+
+.service a {
+    color: red;
+    margin-top: 50px;
+}
+
+.client-section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid red; */
+}
+
+.client {
+    /* display: flex; */
+    padding: 100px;
+    /* border: 1px solid purple; */
+}
+
+.client p {
+    margin-top: 20px;
+}
+
+.client a {
+    padding-top:  100px;
+    color: red;
+}
+
+.image-columns {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 50px; */
+}
+
+.client p {
+    font-size: 1.1em;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.images-grid img {
+    width: 50%;
+    display: block;
+}
+
+.highlight-section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid navy; */
+}
+
+.highlight {
+    padding: 90px;
+    /* margin-top: 500px; */
+    /* border: 1px solid red; */
+}
+
+.highlight h5 {
+    color: rgb(77, 73, 73);
+    font-size: 1em;
+}
+
+.highlight img {
+    margin-top: -90px;
+}
+
+.highlight h1 {
+    margin-top: 5px;
+}
+
+.highlight p {
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.highlight a {
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: red;
+}
+
+.success-section {
+    padding: 90px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid blue; */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    /* border: 1px solid red; */
+    /* width: 700px; */
+    /* height: 1000px; */
+}
+
+.image-grid img {
+    width: 100%;
+}
+
+.image-grid a {
+    color: red;
+    margin-top: 15px;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 90px;
+    /* border: 2px solid red; */
+}
+
+.company {
+    /* border: 1px solid green; */
+}
+
+.company p {
+    margin-top: 20px;
+}
+
+.company a {
+    color: red;
+}
+
+.resources {
+    /* display: flex; */
+    justify-content: space-between;
+    align-content: center;
+    padding: 90px;
+    /* border: 2px solid green; */
+}
+
+.rresources h1 {
+    margin-top: 30px;
+}
+
+.leaders {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 30px;
+    /* border: 1px solid gold; */
+}
+
+.leaders a {
+    color: red;
+    margin-top: 50px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid greenyellow; */
+    background-color: rgb(213, 206, 206);
+}
+
+.new {
+    /* border: 1px solid blueviolet; */
+    padding: 90px;
+}
+
+.new a {
+    color: black;
+}
+
+.suces {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid blue; */
+    padding: 100px;
+    background-color: rgb(239, 58, 58);
+}
+
+.suc {
+    /* border: 1px solid green;  */
+    color: white;
+}
+
+.suc a {
+    text-decoration: none;
+    /* color: red; */
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+footer .thought {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid blue; */
+}
+
+footer .thought .bot {
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid red; */
+    padding: 100px;
+}
+
+footer .thought .bot a {
+    color: white;
+    gap: 10px;
+}
+
+footer .conclution {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 2px solid grey; */
+}
+
+footer .conclution .conclude {
+    /* border: 1px solid white; */
+    padding: 100px;
+    gap: 20px;
+}
+
+footer .conclude a {
+    color: white;
+}
+
+.conclude p {
+    color: white;
+}
