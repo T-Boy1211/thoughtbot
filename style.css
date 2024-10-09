@@ -71,10 +71,10 @@
     /* border: 2px solid red; */
 }
 
-/* .herosection {
+.herosection {
     display: flex;
     justify-content: space-between;
-    align-content: center; */
+    align-content: center;
     /* border: 1px solid green; */
 }
 
